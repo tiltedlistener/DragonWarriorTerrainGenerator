@@ -6,6 +6,8 @@ Simple terrain generation in Java based on the tutorial on [PlayfulJS](http://ww
 
 ![Terrain One](https://github.com/tiltedlistener/DragonWarriorTerrainGenerator/blob/master/examples/land.png)
 
+![Terrain Two](https://github.com/tiltedlistener/DragonWarriorTerrainGenerator/blob/master/examples/still-land.png)
+
 ![Terrain Two](https://github.com/tiltedlistener/DragonWarriorTerrainGenerator/blob/master/examples/more-land.png)
 
 
