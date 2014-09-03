@@ -16,3 +16,5 @@ Simple terrain generation in Java based on the tutorial on [PlayfulJS](http://ww
 It'd be cool to see some towns and caves in here. 
 
 Add some GUI contols to refresh the display and export a doc to use in some other top down game. 
+
+Should add water that has the coastal tiles when adjacent to land. 
