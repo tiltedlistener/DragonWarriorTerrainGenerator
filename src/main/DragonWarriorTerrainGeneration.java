@@ -67,9 +67,7 @@ public class DragonWarriorTerrainGeneration extends JFrame {
 		
 		if (rect.val > this.highest) {
 			this.highest = rect.val;
-		} 
-		
-		if (rect.val < this.lowest) {
+		} else if (rect.val < this.lowest) {
 			this.lowest = rect.val;
 		}
 	}
@@ -92,7 +90,9 @@ public class DragonWarriorTerrainGeneration extends JFrame {
 			int val = current.val - 20;
 	        
 	        Image imageFinal = images.get(0);
-	        if (val < this.case2 && val > this.case1) {
+	        if (val < this.case1) {
+	        	imageFinal = images.get(0);
+	        } else if (val < this.case2 && val > this.case1) {
 	        	imageFinal = images.get(1);
 	        } else if (val < this.case3 && val > this.case2) {
 	        	imageFinal = images.get(2);
@@ -102,8 +102,11 @@ public class DragonWarriorTerrainGeneration extends JFrame {
 	        	imageFinal = images.get(4);
 	        } else if (val < this.case6 && val > this.case5) {
 	        	imageFinal = images.get(5);
+	        } else {
+	        	imageFinal = images.get(2);
 	        }
 	        
+	        System.out.println(val);
 			g.drawImage(imageFinal, current.x(), current.y(), current.size, current.size, this);
 		}
 	}
