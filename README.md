@@ -11,8 +11,6 @@ Simple terrain generation in Java based on the tutorial on [PlayfulJS](http://ww
 
 ## Improvement
 
-Could probably make sure rivers connect and make them less likely to appear alongside terrain transition points. 
-
 It'd be cool to see some towns and caves in here. 
 
 Add some GUI contols to refresh the display and export a doc to use in some other top down game. 
