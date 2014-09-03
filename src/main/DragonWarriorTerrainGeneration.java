@@ -87,7 +87,7 @@ public class DragonWarriorTerrainGeneration extends JFrame {
 			Rectangle current = rectList.get(i);
 			
 			// Offset made large bodies of water more likely
-			int val = current.val - 20;
+			int val = current.val - 10;
 	        
 	        Image imageFinal = images.get(0);
 	        if (val < this.case1) {
